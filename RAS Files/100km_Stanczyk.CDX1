@@ -168,8 +168,8 @@
   <MachAlt />
   <SimulationList>
     <Simulation>
-      <SustainerEngine>Scaled-O3400  (AIAA)</SustainerEngine>
-      <SustainerLaunchWt>53</SustainerLaunchWt>
+      <SustainerEngine>BERMA-25000-02  (Karman_AIAA-capstone)</SustainerEngine>
+      <SustainerLaunchWt>55</SustainerLaunchWt>
       <SustainerNozzleDiameter>3.8</SustainerNozzleDiameter>
       <SustainerCG>54</SustainerCG>
       <SustainerIgnitionDelay>0</SustainerIgnitionDelay>
@@ -186,9 +186,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>146.7815</TimetoApogee>
-      <MaxAltitude>329687.4</MaxAltitude>
-      <MaxVelocity>5658.431</MaxVelocity>
+      <TimetoApogee>151.1291</TimetoApogee>
+      <MaxAltitude>345788.9</MaxAltitude>
+      <MaxVelocity>5440.091</MaxVelocity>
       <OptimumWt>0</OptimumWt>
       <OptimumMaxAlt>0</OptimumMaxAlt>
     </Simulation>
