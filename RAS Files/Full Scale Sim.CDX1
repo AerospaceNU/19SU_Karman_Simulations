@@ -39,6 +39,44 @@
         <FX3>0</FX3>
       </Fin>
     </BodyTube>
+    <Transition>
+      <PartType>Transition</PartType>
+      <Length>12</Length>
+      <Diameter>6.51</Diameter>
+      <Location>102</Location>
+      <RearDiameter>6.51</RearDiameter>
+      <Color>Black</Color>
+    </Transition>
+    <Booster>
+      <PartType>Booster</PartType>
+      <Length>84</Length>
+      <Diameter>6.51</Diameter>
+      <InsideDiameter>6.51</InsideDiameter>
+      <LaunchLugDiameter>0</LaunchLugDiameter>
+      <LaunchLugLength>0</LaunchLugLength>
+      <RailGuideDiameter>0</RailGuideDiameter>
+      <RailGuideHeight>0</RailGuideHeight>
+      <LaunchShoeArea>0</LaunchShoeArea>
+      <Location>114</Location>
+      <ShoulderLength>0</ShoulderLength>
+      <Color>Black</Color>
+      <NozzleExitDiameter>0</NozzleExitDiameter>
+      <BoattailLength>0</BoattailLength>
+      <BoattailRearDiameter>0</BoattailRearDiameter>
+      <Fin>
+        <Count>3</Count>
+        <Chord>18</Chord>
+        <Span>7</Span>
+        <SweepDistance>12</SweepDistance>
+        <TipChord>3</TipChord>
+        <Thickness>0.125</Thickness>
+        <LERadius>0</LERadius>
+        <Location>22</Location>
+        <AirfoilSection>Square</AirfoilSection>
+        <FX1>0</FX1>
+        <FX3>0</FX3>
+      </Fin>
+    </Booster>
     <Surface>Smooth (Zero Roughness)</Surface>
     <CP>0</CP>
     <ModifiedBarrowman>False</ModifiedBarrowman>
@@ -75,28 +113,29 @@
   <MachAlt />
   <SimulationList>
     <Simulation>
-      <SustainerEngine>O3400-IM-P  (CTI)</SustainerEngine>
-      <SustainerLaunchWt>52.5</SustainerLaunchWt>
+      <SustainerEngine>Scaled-O3400  (AIAA)</SustainerEngine>
+      <SustainerLaunchWt>52</SustainerLaunchWt>
       <SustainerNozzleDiameter>4</SustainerNozzleDiameter>
       <SustainerCG>70</SustainerCG>
-      <SustainerIgnitionDelay>0</SustainerIgnitionDelay>
-      <Booster1LaunchWt>0</Booster1LaunchWt>
+      <SustainerIgnitionDelay>25</SustainerIgnitionDelay>
+      <Booster1Engine>O8000  (CTI)</Booster1Engine>
+      <Booster1LaunchWt>146</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
-      <Booster1CG>0</Booster1CG>
-      <Booster1NozzleDiameter>0</Booster1NozzleDiameter>
-      <IncludeBooster1>False</IncludeBooster1>
+      <Booster1CG>130</Booster1CG>
+      <Booster1NozzleDiameter>6</Booster1NozzleDiameter>
+      <IncludeBooster1>True</IncludeBooster1>
       <Booster2LaunchWt>0</Booster2LaunchWt>
       <Booster2Delay>0</Booster2Delay>
       <Booster2CG>0</Booster2CG>
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>46.73816</TimetoApogee>
-      <MaxAltitude>46737.91</MaxAltitude>
-      <MaxVelocity>2991.307</MaxVelocity>
-      <OptimumWt>43.96875</OptimumWt>
-      <OptimumMaxAlt>43.96875</OptimumMaxAlt>
+      <TimetoApogee>140.0352</TimetoApogee>
+      <MaxAltitude>222999.3</MaxAltitude>
+      <MaxVelocity>4775.837</MaxVelocity>
+      <OptimumWt>33.75586</OptimumWt>
+      <OptimumMaxAlt>33.75586</OptimumMaxAlt>
     </Simulation>
   </SimulationList>
 </RASAeroDocument>
