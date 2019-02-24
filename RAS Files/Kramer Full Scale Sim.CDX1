@@ -34,9 +34,9 @@
         <Thickness>0.125</Thickness>
         <LERadius>0</LERadius>
         <Location>14</Location>
-        <AirfoilSection>Square</AirfoilSection>
-        <FX1>0</FX1>
-        <FX3>0</FX3>
+        <AirfoilSection>Hexagonal</AirfoilSection>
+        <FX1>0.86</FX1>
+        <FX3>0.51</FX3>
       </Fin>
     </BodyTube>
     <Transition>
@@ -72,9 +72,9 @@
         <Thickness>0.125</Thickness>
         <LERadius>0</LERadius>
         <Location>22</Location>
-        <AirfoilSection>Square</AirfoilSection>
-        <FX1>0</FX1>
-        <FX3>0</FX3>
+        <AirfoilSection>Hexagonal</AirfoilSection>
+        <FX1>0.992</FX1>
+        <FX3>0.544</FX3>
       </Fin>
     </Booster>
     <Surface>Smooth (Zero Roughness)</Surface>
@@ -131,9 +131,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>153.5378</TimetoApogee>
-      <MaxAltitude>271628</MaxAltitude>
-      <MaxVelocity>4915.383</MaxVelocity>
+      <TimetoApogee>185.1304</TimetoApogee>
+      <MaxAltitude>402028.3</MaxAltitude>
+      <MaxVelocity>5415.253</MaxVelocity>
       <OptimumWt>32.02734</OptimumWt>
       <OptimumMaxAlt>32.02734</OptimumMaxAlt>
     </Simulation>
