@@ -134,8 +134,8 @@
       <TimetoApogee>172.5073</TimetoApogee>
       <MaxAltitude>345732.7</MaxAltitude>
       <MaxVelocity>5269.18</MaxVelocity>
-      <OptimumWt>32.02734</OptimumWt>
-      <OptimumMaxAlt>32.02734</OptimumMaxAlt>
+      <OptimumWt>28.83266</OptimumWt>
+      <OptimumMaxAlt>28.83266</OptimumMaxAlt>
     </Simulation>
     <Simulation>
       <SustainerEngine>BERMA-25000-02  (Karman_AIAA-capstone)</SustainerEngine>
@@ -156,9 +156,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>172.4574</TimetoApogee>
-      <MaxAltitude>348953</MaxAltitude>
-      <MaxVelocity>5514.337</MaxVelocity>
+      <TimetoApogee>191.9666</TimetoApogee>
+      <MaxAltitude>435236.6</MaxAltitude>
+      <MaxVelocity>5807.303</MaxVelocity>
       <OptimumWt>31.35938</OptimumWt>
       <OptimumMaxAlt>31.35938</OptimumMaxAlt>
     </Simulation>
