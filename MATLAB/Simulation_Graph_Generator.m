@@ -2,8 +2,7 @@ close all; clear all;
 %written by Isaac Kramer and Alex Gushulak on 25 February 2019
 
 %% set directory to appropriate location based on local GitHub
-cd /Users/Mac/Documents/GitHub/19SP_Karman_Simulations/MATLAB/20190225_FullScale_7inchBooster_Kramer/
-
+cd C:\Users\isaac\Documents\GitHub\19SP_Karman_Simulations\MATLAB\20190225_FullScale_7inchBooster_Kramer;
 %% Data Assigned to Variables
 data_file = xlsread('20190225_RASAeroData.xlsx'); 
 
