@@ -13,10 +13,10 @@ stability = new_file(:,14);
 accel = new_file(:,15);
 velocity = new_file(:,18);
 
-plot1 = plot(time_sec, stability, 'Color', [.30,.62,.96], 'LineWidth', 2);
+plot1 = plot(time_sec, mach_number, 'Color', [.30,.62,.96], 'LineWidth', 2);
 xlabel ('Time (s)', 'FontSize', 24)
-ylabel ('Stability (cal)', 'FontSize', 24)
-title ('Stability vs Time', 'FontSize', 20)
+ylabel ('Mach Number', 'FontSize', 24)
+title ('Mach Number vs Time', 'FontSize', 20)
 set(gcf, 'color', 'w') % set graph background to white
 
 
