@@ -1,26 +1,36 @@
+close all; clear all;
 %written by Isaac Kramer and Alex Gushulak on 25 February 2019
 
-cd C:\Users\AIAA\Documents\GitHub\19SP_Karman_Simulations\MATLAB\20190225_FullScale_7inchBooster_Kramer;
-%set directory to appropriate location based on local GitHub
+%% set directory to appropriate location based on local GitHub
+cd /Users/Mac/Documents/GitHub/19SP_Karman_Simulations/MATLAB/20190225_FullScale_7inchBooster_Kramer/
 
-new_file = xlsread('20190225_RASAeroData.xlsx'); 
+%% Data Assigned to Variables
+data_file = xlsread('20190225_RASAeroData.xlsx'); 
 
-time_sec = new_file(:,1);
-mach_number = new_file(:,4);
-thrust = new_file(:,8);
-weight = new_file(:,9);
-drag = new_file(:,10);
-stability = new_file(:,14);
-accel = new_file(:,15);
-velocity = new_file(:,18);
+time_sec = data_file(:,1);
+time_min = time_sec./60; % Convert to minutes
+mach_number = data_file(:,4);
+thrust = data_file(:,8);
+weight = data_file(:,9);
+drag = data_file(:,10);
+stability = data_file(:,14);
+accel = data_file(:,15);
+velocity = data_file(:,18);
+altitude = data_file(:,23);
 
+%% Plotting
+plot1 = plot(time_min, drag);
+xlim([0 2.8]);
+plot1(1).LineWidth = 3;
+plot1(1).Color = [.80,.22,.40];
+set(gca,'FontSize',12)
+xlabel ('Time (mins)', 'FontSize', 30);
+ylabel ('Drag (lb)', 'FontSize', 30);
 
-%%
-plot1 = plot(time_sec, drag, 'Color', [.30,.62,.96], 'LineWidth', 2);
-xlim([0 50]);
-xlabel ('Time (s)', 'FontSize', 24)
-ylabel ('Thrust', 'FontSize', 24)
-title ('Thrust vs Time', 'FontSize', 20)
-set(gcf, 'color', 'w') % set graph background to white
+title ('Aerodynamic Drag', 'FontSize', 30);
+set(gcf, 'color', 'w'); % set graph background to white
+grid on;
+
+% Note: Air Density at 42,000' = 0.00287802 kg/m^3
 
 
