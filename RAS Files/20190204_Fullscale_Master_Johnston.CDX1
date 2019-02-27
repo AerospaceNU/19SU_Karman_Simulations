@@ -6,13 +6,13 @@
       <Length>23.5</Length>
       <Diameter>4.153</Diameter>
       <Shape>Von Karman Ogive</Shape>
-      <BluntRadius>0</BluntRadius>
+      <BluntRadius>0.0625</BluntRadius>
       <Location>0</Location>
       <Color>Black</Color>
     </NoseCone>
     <BodyTube>
       <PartType>BodyTube</PartType>
-      <Length>88</Length>
+      <Length>82</Length>
       <Diameter>4.153</Diameter>
       <LaunchLugDiameter>0</LaunchLugDiameter>
       <LaunchLugLength>0</LaunchLugLength>
@@ -36,7 +36,7 @@
       <RailGuideDiameter>0</RailGuideDiameter>
       <RailGuideHeight>0</RailGuideHeight>
       <LaunchShoeArea>0</LaunchShoeArea>
-      <Location>111.5</Location>
+      <Location>105.5</Location>
       <ShoulderLength>1</ShoulderLength>
       <Offset>-15</Offset>
       <Color>Black</Color>
@@ -48,7 +48,7 @@
         <TipChord>2</TipChord>
         <Thickness>0.34</Thickness>
         <LERadius>0.0625</LERadius>
-        <Location>13</Location>
+        <Location>14</Location>
         <AirfoilSection>Hexagonal</AirfoilSection>
         <FX1>0.5</FX1>
         <FX3>0.5</FX3>
@@ -57,14 +57,14 @@
     <Booster>
       <PartType>Booster</PartType>
       <Length>78</Length>
-      <Diameter>7.18</Diameter>
+      <Diameter>7.15</Diameter>
       <InsideDiameter>4.353</InsideDiameter>
       <LaunchLugDiameter>0</LaunchLugDiameter>
       <LaunchLugLength>0</LaunchLugLength>
       <RailGuideDiameter>0</RailGuideDiameter>
       <RailGuideHeight>0</RailGuideHeight>
       <LaunchShoeArea>0</LaunchShoeArea>
-      <Location>111.5</Location>
+      <Location>105.5</Location>
       <ShoulderLength>12</ShoulderLength>
       <Color>Black</Color>
       <NozzleExitDiameter>0</NozzleExitDiameter>
@@ -84,7 +84,7 @@
         <FX3>0.5</FX3>
       </Fin>
     </Booster>
-    <Surface>Camouflage Paint</Surface>
+    <Surface>Rough Camouflage Paint</Surface>
     <CP>0</CP>
     <ModifiedBarrowman>True</ModifiedBarrowman>
     <Turbulence>True</Turbulence>
@@ -99,7 +99,7 @@
     <Altitude>3000</Altitude>
     <Pressure>30.3</Pressure>
     <RodAngle>1</RodAngle>
-    <RodLength>25</RodLength>
+    <RodLength>18</RodLength>
     <Temperature>90</Temperature>
     <WindSpeed>12</WindSpeed>
   </LaunchSite>
@@ -123,13 +123,13 @@
       <SustainerEngine>BERMA-25000-02  (Karman_AIAA-capstone)</SustainerEngine>
       <SustainerLaunchWt>47</SustainerLaunchWt>
       <SustainerNozzleDiameter>3.9</SustainerNozzleDiameter>
-      <SustainerCG>71</SustainerCG>
+      <SustainerCG>69</SustainerCG>
       <SustainerIgnitionDelay>12</SustainerIgnitionDelay>
       <Booster1Engine>O8000  (CTI)</Booster1Engine>
       <Booster1LaunchWt>170</Booster1LaunchWt>
       <Booster1SeparationDelay>0.5</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
-      <Booster1CG>125</Booster1CG>
+      <Booster1CG>123</Booster1CG>
       <Booster1NozzleDiameter>4.8</Booster1NozzleDiameter>
       <IncludeBooster1>True</IncludeBooster1>
       <Booster2LaunchWt>0</Booster2LaunchWt>
@@ -138,9 +138,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>171.1484</TimetoApogee>
-      <MaxAltitude>396943.8</MaxAltitude>
-      <MaxVelocity>5980.178</MaxVelocity>
+      <TimetoApogee>165.4615</TimetoApogee>
+      <MaxAltitude>369982.2</MaxAltitude>
+      <MaxVelocity>5844.149</MaxVelocity>
       <OptimumWt>0</OptimumWt>
       <OptimumMaxAlt>0</OptimumMaxAlt>
     </Simulation>
