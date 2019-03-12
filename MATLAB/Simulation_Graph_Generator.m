@@ -18,18 +18,17 @@ velocity = data_file(:,18);
 altitude = data_file(:,23);
 
 %% Plotting
-plot1 = plot(time_min, drag);
+plot1 = plot(time_min, thrust);
 xlim([0 2.8]);
 plot1(1).LineWidth = 3;
 plot1(1).Color = [.80,.22,.40];
 set(gca,'FontSize',12)
 xlabel ('Time (mins)', 'FontSize', 30);
-ylabel ('Drag (lb)', 'FontSize', 30);
+ylabel ('Thrust (lb)', 'FontSize', 30);
 
-title ('Aerodynamic Drag', 'FontSize', 30);
+title ('Thrust Profile', 'FontSize', 30);
 set(gcf, 'color', 'w'); % set graph background to white
 grid on;
-
 % Note: Air Density at 42,000' = 0.00287802 kg/m^3
 
 
