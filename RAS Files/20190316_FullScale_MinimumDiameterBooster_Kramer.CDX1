@@ -119,7 +119,7 @@
       <SustainerCG>72</SustainerCG>
       <SustainerIgnitionDelay>8</SustainerIgnitionDelay>
       <Booster1Engine>O8000  (CTI)</Booster1Engine>
-      <Booster1LaunchWt>142.6</Booster1LaunchWt>
+      <Booster1LaunchWt>143.44</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
       <Booster1CG>117</Booster1CG>
@@ -131,9 +131,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>168.6195</TimetoApogee>
-      <MaxAltitude>405891.7</MaxAltitude>
-      <MaxVelocity>6161.819</MaxVelocity>
+      <TimetoApogee>167.8399</TimetoApogee>
+      <MaxAltitude>402056.2</MaxAltitude>
+      <MaxVelocity>6147.172</MaxVelocity>
       <OptimumWt>28.83266</OptimumWt>
       <OptimumMaxAlt>28.83266</OptimumMaxAlt>
     </Simulation>
