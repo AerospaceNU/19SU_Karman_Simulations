@@ -4,7 +4,7 @@ close all; clear all;
 %% set directory to appropriate location based on local GitHub
 cd C:\Users\isaac\Documents\GitHub\19SP_Karman_Simulations\MATLAB\RASAero_Data\FullScale_MinDiameterBooster;
 %% Data Assigned to Variables
-data_file = xlsread('20190311_MinDiameterBooster_RASAeroFlightData.xlsx'); 
+data_file = xlsread('20190326_RASAeroData_FullScaleMinDiameter.xlsx'); 
 
 time_sec = data_file(:,1);
 time_min = time_sec./60; % Convert to minutes
