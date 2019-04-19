@@ -2,12 +2,12 @@ close all; clear all;
 %written by Isaac Kramer and Alex Gushulak on 25 February 2019
 
 %% set directory to appropriate location based on local GitHub
-%cd C:\Users\AIAA\Documents\GitHub\19SP_Karman_Simulations\MATLAB\RASAero_Data\FullScale_MinDiameterBooster;
+%cd C:\Users\SimCity\Documents\GitHub\19SP_Karman_Simulations\MATLAB\RASAero_Data;
 %% Data Assigned to Variables
-data_file = xlsread('20190326_RASAeroData_FullScaleMinDiameter.xlsx'); 
+data_file = xlsread('20190418_RASAeroData_FullScale.xlsx'); 
 
 time_sec = data_file(:,1);
-time_min = time_sec./60
+time_min = time_sec./60;
 mach_number = data_file(:,4);
 thrust = data_file(:,8);
 weight = data_file(:,9);
