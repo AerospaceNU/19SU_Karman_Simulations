@@ -19,15 +19,27 @@ velocity = data_file(:,18);
 altitude = data_file(:,23);
 
 %% Plotting
-plot1 = plot(time_min, drag);
+plot1 = plot(time_min, mach_number);
 xlim([0 2.8]);
 plot1(1).LineWidth = 3;
 plot1(1).Color = [.80,.22,.40];
 set(gca,'FontSize',12)
 xlabel ('Time (mins)', 'FontSize', 30);
-ylabel ('Drag (lb)', 'FontSize', 30);
+ylabel ('Mach Number', 'FontSize', 30);
 
-title ('Aerodynamic Drag', 'FontSize', 30);
+title ('Mach', 'FontSize', 30);
+set(gcf, 'color', 'w'); % set graph background to white
+grid on;
+
+%% Plotting
+plot2 = plot(time_min, altitude);
+plot2(1).LineWidth = 3;
+plot2(1).Color = [.80,.22,.40];
+set(gca,'FontSize',12)
+xlabel ('Time (mins)', 'FontSize', 30);
+ylabel ('Altitude', 'FontSize', 30);
+
+title ('Mach', 'FontSize', 30);
 set(gcf, 'color', 'w'); % set graph background to white
 grid on;
 
