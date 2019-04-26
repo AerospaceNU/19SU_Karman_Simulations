@@ -18,6 +18,29 @@ velocity = data_file(:,18);
 altitude = data_file(:,23);
 
 %% Plotting
+<<<<<<< HEAD
+plot1 = plot(time_min, mach_number);
+xlim([0 2.8]);
+plot1(1).LineWidth = 3;
+plot1(1).Color = [.80,.22,.40];
+set(gca,'FontSize',12)
+xlabel ('Time (mins)', 'FontSize', 30);
+ylabel ('Mach Number', 'FontSize', 30);
+
+title ('Mach', 'FontSize', 30);
+set(gcf, 'color', 'w'); % set graph background to white
+grid on;
+
+%% Plotting
+plot2 = plot(time_min, altitude);
+plot2(1).LineWidth = 3;
+plot2(1).Color = [.80,.22,.40];
+set(gca,'FontSize',12)
+xlabel ('Time (mins)', 'FontSize', 30);
+ylabel ('Altitude', 'FontSize', 30);
+
+title ('Mach', 'FontSize', 30);
+=======
 plot1 = plot(time_sec, stability);
 xlim([0 155]);
 plot1(1).LineWidth = 3;
@@ -27,6 +50,7 @@ xlabel ('Time (sec)', 'FontSize', 25);
 ylabel ('Stability (calibers)', 'FontSize', 25);
 
 title ('Flight Stability', 'FontSize', 25);
+>>>>>>> 1a96d17aed032049f54ab94b11e8675a92e31e5d
 set(gcf, 'color', 'w'); % set graph background to white
 grid on;
 % Note: Air Density at 42,000' = 0.00287802 kg/m^3
