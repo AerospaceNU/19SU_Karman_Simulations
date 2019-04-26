@@ -2,13 +2,12 @@ close all; clear all;
 %written by Isaac Kramer and Alex Gushulak on 25 February 2019
 
 %% set directory to appropriate location based on local GitHub
-cd /Users/Mac/Documents/GitHub/19SP_Karman_Simulations/MATLAB/20190225_FullScale_7inchBooster_Kramer/
-
+%cd C:\Users\SimCity\Documents\GitHub\19SP_Karman_Simulations\MATLAB\RASAero_Data;
 %% Data Assigned to Variables
-data_file = xlsread('20190225_RASAeroData.xlsx'); 
+data_file = xlsread('20190418_RASAeroData_FullScale.xlsx'); 
 
 time_sec = data_file(:,1);
-time_min = time_sec./60; % Convert to minutes
+time_min = time_sec./60;
 mach_number = data_file(:,4);
 thrust = data_file(:,8);
 weight = data_file(:,9);
@@ -19,6 +18,7 @@ velocity = data_file(:,18);
 altitude = data_file(:,23);
 
 %% Plotting
+<<<<<<< HEAD
 plot1 = plot(time_min, mach_number);
 xlim([0 2.8]);
 plot1(1).LineWidth = 3;
@@ -40,9 +40,19 @@ xlabel ('Time (mins)', 'FontSize', 30);
 ylabel ('Altitude', 'FontSize', 30);
 
 title ('Mach', 'FontSize', 30);
+=======
+plot1 = plot(time_sec, stability);
+xlim([0 155]);
+plot1(1).LineWidth = 3;
+plot1(1).Color = [.95,.15,.15];
+set(gca,'FontSize',12);
+xlabel ('Time (sec)', 'FontSize', 25);
+ylabel ('Stability (calibers)', 'FontSize', 25);
+
+title ('Flight Stability', 'FontSize', 25);
+>>>>>>> 1a96d17aed032049f54ab94b11e8675a92e31e5d
 set(gcf, 'color', 'w'); % set graph background to white
 grid on;
-
 % Note: Air Density at 42,000' = 0.00287802 kg/m^3
 
 

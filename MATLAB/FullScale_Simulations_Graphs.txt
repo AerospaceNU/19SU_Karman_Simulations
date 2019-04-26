@@ -1,6 +1,0 @@
-stability vs time
-accel vs time
-velocity vs time
-altitude vs time
-drag vs time
-accel vs drag
