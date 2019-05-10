@@ -42,16 +42,16 @@
     <Transition>
       <PartType>Transition</PartType>
       <Length>12</Length>
-      <Diameter>6.87</Diameter>
+      <Diameter>7</Diameter>
       <Location>102</Location>
-      <RearDiameter>6.87</RearDiameter>
+      <RearDiameter>7</RearDiameter>
       <Color>Black</Color>
     </Transition>
     <Booster>
       <PartType>Booster</PartType>
       <Length>60</Length>
-      <Diameter>6.87</Diameter>
-      <InsideDiameter>6.87</InsideDiameter>
+      <Diameter>7</Diameter>
+      <InsideDiameter>7</InsideDiameter>
       <LaunchLugDiameter>0</LaunchLugDiameter>
       <LaunchLugLength>0</LaunchLugLength>
       <RailGuideDiameter>0</RailGuideDiameter>
