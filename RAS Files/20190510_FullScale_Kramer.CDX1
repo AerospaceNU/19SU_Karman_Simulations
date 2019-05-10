@@ -42,16 +42,16 @@
     <Transition>
       <PartType>Transition</PartType>
       <Length>12</Length>
-      <Diameter>7</Diameter>
+      <Diameter>6.87</Diameter>
       <Location>102</Location>
-      <RearDiameter>7</RearDiameter>
+      <RearDiameter>6.87</RearDiameter>
       <Color>Black</Color>
     </Transition>
     <Booster>
       <PartType>Booster</PartType>
       <Length>60</Length>
-      <Diameter>7</Diameter>
-      <InsideDiameter>7</InsideDiameter>
+      <Diameter>6.87</Diameter>
+      <InsideDiameter>6.87</InsideDiameter>
       <LaunchLugDiameter>0</LaunchLugDiameter>
       <LaunchLugLength>0</LaunchLugLength>
       <RailGuideDiameter>0</RailGuideDiameter>
@@ -114,12 +114,12 @@
   <SimulationList>
     <Simulation>
       <SustainerEngine>BERMA-25000-02  (Karman_AIAA-capstone)</SustainerEngine>
-      <SustainerLaunchWt>45.69</SustainerLaunchWt>
+      <SustainerLaunchWt>43.84</SustainerLaunchWt>
       <SustainerNozzleDiameter>3.93</SustainerNozzleDiameter>
       <SustainerCG>72</SustainerCG>
       <SustainerIgnitionDelay>8</SustainerIgnitionDelay>
       <Booster1Engine>O8000  (CTI)</Booster1Engine>
-      <Booster1LaunchWt>142.27</Booster1LaunchWt>
+      <Booster1LaunchWt>138.91</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
       <Booster1CG>117</Booster1CG>
@@ -131,9 +131,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>155.9964</TimetoApogee>
-      <MaxAltitude>348044.7</MaxAltitude>
-      <MaxVelocity>5939.661</MaxVelocity>
+      <TimetoApogee>165.1114</TimetoApogee>
+      <MaxAltitude>390744</MaxAltitude>
+      <MaxVelocity>6292.584</MaxVelocity>
       <OptimumWt>28.83266</OptimumWt>
       <OptimumMaxAlt>28.83266</OptimumMaxAlt>
     </Simulation>
